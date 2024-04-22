@@ -5,7 +5,6 @@ let input = fs
   .split("\n");
 let inputs = [];
 inputs = input[0].split(" ");
-console.log(inputs[2]);
 
 let total = Number(inputs[0]);
 let limit = Number(inputs[1]);
