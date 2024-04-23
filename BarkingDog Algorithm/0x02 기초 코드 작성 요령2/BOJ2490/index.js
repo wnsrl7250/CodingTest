@@ -23,3 +23,7 @@ for (let i = 0; i < input.length; i++) {
     console.log("D");
   }
 }
+
+//다른사람풀이
+// yut을 선언할때 map메서드 뒤에 reduce메서드로 배열원소의 합 구함 .reduce((pre, cur) => pre + cur);
+// 합을 구하면 굳이 yut배열을 for문으로 돌 필요 없이 if문으로 답을 구한다
