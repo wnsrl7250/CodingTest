@@ -15,3 +15,5 @@ for i in range(9):
     if(i == a or i== b):
         continue
     print(arr[i])
+
+# 9개 다 더해서 100을 빼고 남음 수와 배열원소 두개를 더한 수가 같으면 나머지의 합이 100

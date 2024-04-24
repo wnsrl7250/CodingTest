@@ -10,3 +10,4 @@ elif(A<B):
         print(i, end=" ")
 else:
     print(A - B)
+    
