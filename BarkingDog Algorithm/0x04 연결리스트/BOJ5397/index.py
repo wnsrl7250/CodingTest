@@ -1,7 +1,5 @@
-from sys import stdin
-
 for _ in range(int(input())):
-    text = list(stdin.readline())
+    text = input()
     left = []
     right = []
     for i in text:
