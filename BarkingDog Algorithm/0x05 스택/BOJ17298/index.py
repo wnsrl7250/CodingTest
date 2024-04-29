@@ -12,4 +12,3 @@ for i in range(n):
     st.append(i)
 
 print(*ans)
-        

@@ -14,4 +14,3 @@ for i in bd:
     st.append(i)
     ans += len(st) -1
 print(ans)
-
