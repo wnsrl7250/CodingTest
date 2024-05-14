@@ -9,6 +9,6 @@ for tc in range(1,T+1):
         if i<=mid:
             answer += sum(K[i][mid-i:mid+1+i])
         else:
-            answer += sum(K[i][i-mid:mid-i])
+            answer += sum(K[i][i-mid:mid+1+(N-1-i)])
     
     print(f'#{tc} {answer}')
